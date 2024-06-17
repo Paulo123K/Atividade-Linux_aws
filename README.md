@@ -158,12 +158,12 @@ Fi
 
 ### Configurar a execução do script de validação a cada 5 minutos.
 
-Execute o comando crontab -e para editar o cronjob.
+- Execute o comando crontab -e para editar o cronjob.
 
-Adicione a seguinte linha de código no arquivo de cronjob:
+- Adicione a seguinte linha de código no arquivo de cronjob:
 
-*/5 * * * * /home/ec2-user/script.sh
+  */5 * * * * /home/ec2-user/script.sh
 
-Salve o arquivo de cronjob.
+- Salve o arquivo de cronjob.
 
-Execute o comando crontab -l para verificar se o cronjob foi configurado corretamente.
+- Execute o comando crontab -l para verificar se o cronjob foi configurado corretamente.
