@@ -102,27 +102,27 @@
 # Parte Linux:
 ### Configurar o NFS com o IP fornecido
  
-•	Instalar o pacote nfs-utils: sudo yum install nfs-utils.
+•	Instalar o pacote ```nfs-utils: sudo yum install nfs-utils.```
 
-•	Criar diretório: sudo mkdir -p /nfs/paulo
+•	Criar diretório: ```sudo mkdir -p /nfs/paulo```
 
-•	Conceder permissões: sudo chmod 777 /nfs/paulo 
+•	Conceder permissões: ```sudo chmod 777 /nfs/paulo```
 
-•	Configurar o NFS para compartilhamento: sudo nano /etc/exportfs -r
+•	Configurar o NFS para compartilhamento: ```sudo nano /etc/exportfs -r```
 
-•	Adicionar a seguinte linha no arquivo /etc/fstab: *(rw, sync) 
+•	Adicionar a seguinte linha no arquivo /etc/fstab: ```*(rw, sync)```
 
-•	Exportar o diretório nfs: sudo exportfs -r
+•	Exportar o diretório nfs: ```sudo exportfs -r```
 
 ### Configurar o Apache.
 
-•	Executar o comando sudo yum install httpd -y para instalar o apache.
+•	Executar o comando ```sudo yum install httpd -y``` para instalar o apache.
 
-•	Executar o comando sudo systemctl start httpd para iniciar o apache.
+•	Executar o comando ```sudo systemctl start httpd``` para iniciar o apache.
 
-•	Executar o comando sudo systemctl enable httpd para habilitar o apache para iniciar automaticamente.
+•	Executar o comando ```sudo systemctl enable httpd``` para habilitar o apache para iniciar automaticamente.
 
-•	Executar o comando sudo systemctl status httpd para verificar o status do apache.
+•	Executar o comando ```sudo systemctl status httpd``` para verificar o status do apache.
 
 ### Configurar o script de validação.
 
@@ -152,9 +152,9 @@ Fi
 ```
 •	Salve o arquivo de script.
 
-•	Execute o comando chmod +x script.sh para tornar o arquivo de script executável.
+•	Execute o comando ```chmod +x script.sh``` para tornar o arquivo de script executável.
 
-•	Execute o comando cat ./script.sh para executar o script.
+•	Execute o comando ```cat ./script.sh``` para executar o script.
 
 ### Configurar a execução do script de validação a cada 5 minutos.
 
