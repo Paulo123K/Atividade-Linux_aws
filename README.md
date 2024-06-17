@@ -110,7 +110,7 @@
 
 •	Configurar o NFS para compartilhamento: ```sudo nano /etc/exportfs -r```
 
-•	Adicionar a seguinte linha no arquivo /etc/fstab: ```*(rw, sync)```
+•	Adicionar a seguinte linha no arquivo /etc/exportfs -r: ```*(rw, sync)```
 
 •	Exportar o diretório nfs: ```sudo exportfs -r```
 
