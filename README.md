@@ -102,7 +102,7 @@
 # Parte Linux:
 ### Configurar o NFS com o IP fornecido
  
-•	Instalar o pacote ```nfs-utils: sudo yum install nfs-utils.```
+•	Instalar o pacote nfs-utils: ```sudo yum install nfs-utils.```
 
 •	Criar diretório: ```sudo mkdir -p /nfs/paulo```
 
